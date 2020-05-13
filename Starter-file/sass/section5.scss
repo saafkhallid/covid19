@@ -1,0 +1,84 @@
+.section5 {
+    .photo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;     }
+        .container {
+            display: grid;
+            grid-column: 25% 25% 50%;
+            grid-row: 100%;
+            // background-color: blue;
+            .item1 {
+              
+                grid-row: 1/1;
+                grid-column:1/2 ;
+                ul {
+                    .item1--block1{
+                        // 
+                        border: blue 1px solid;
+                        // display: block;
+                        width: 100px;
+                        text-align: center;
+                        margin-left: 140px;
+                        padding: 4px 8px;
+                        border-radius: 10px;
+                        img {
+                            position: relative;
+                            top :3px
+                        }
+                        
+                    }
+                    
+                
+                    li {
+                        list-style-type: none;
+                        text-align: center;
+                        padding-top: 15px;
+                        font-size: 20px;
+                        font-weight: 700;
+                        display: block;
+                    }
+                }
+            }
+            .item2 {
+               
+
+                grid-row: 1/1;
+                grid-column:2/3 ;
+                ul {
+                    .item2--block1 {
+                        color:#1078AD;
+                    }
+                    .item2--block2 {
+                        color:#369D53;
+                    }
+                    li {
+                        list-style-type: none;
+                        text-align: center;
+                        padding-top: 10px;
+                        font-weight: 700;
+                        font-size: 20px;
+                       
+
+                    }
+                }
+            }
+            .item3 {
+                
+                grid-row: 1/1;
+                grid-column:3/4 ;
+                // width: 50%;
+                p {
+                    padding-top: 20px;
+                    color: #7F7F7F;
+                    line-height: 30px;
+                    font-weight: bold;
+                   
+                }
+
+                 
+            }
+        
+        }
+        
+}

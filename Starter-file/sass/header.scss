@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+        
+}
+
+.head {
+    width: 100%;
+    height: 350px;
+    .menu {
+
+        display: block;
+        width: 100%;
+        height: 100px;
+        // background-color:red;
+        background-image: url("../../Design/Assets/png/Merged\ bar-39.png");
+        background-color: rgba(26, 81, 158, 0.24);
+
+        // position: fixed;
+        // //  left: 0;
+        // //  right: 0;
+        //  z-index: 1;
+        
+        //  top: 0;
+        // bottom:0;
+        // // z-index: 1;
+       
+        
+          .logo {
+              float: left;
+              margin-left: 5%;
+              
+          }
+          ul {
+              float: right;
+              margin-right: 5%;
+               .info--color {
+                   color:#1A519E;
+                //    display: block;
+               }
+              .info--block1{
+                   border: blue 1px solid;
+                   border-radius: 10px;
+                
+                    img {
+                        position: relative;
+                        top :3px
+                    
+                }
+            }
+              li {
+                  list-style-type: none;
+                  margin-top: 10%;
+                  display: inline-block;
+                  padding: 5px 20px;
+                  font-weight: bold;
+                 
+
+              }
+              
+          }
+    }
+    .inf {
+       
+        z-index: 0;
+        // padding: bottom 35px;
+        width: 100%;
+        background-color:#F4CF1B ;
+        height: 200px;
+        text-align: center;
+        padding-top: 35px;
+        // margin-bottom: -100px;
+        // padding-bottom: 40px;
+        // position: fixed;
+        // top : 0
+
+        p {
+            padding-top: 20px;
+            color: #1078AD;
+            line-height: 30px;
+            font-size: 20px;
+        }
+        h3 {
+            color: #000000;
+            
+        }
+        
+    }
+
+}

@@ -1,0 +1,29 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "C'est un projet pour valider les compétences C3N3 (C2N3).",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.5",
+    "concat": "^1.0.3"
+  },
+  "scripts": {
+    "watch": "node-sass -w ./Starter-file/sass  -o ./Starter-file/dist/css",
+    "compile": "node-sass  ./Starter-file/sass  -o ./Starter-file/dist/css",
+    "concat": "concat -o ./Starter-file/dist/css/style.css   ./Starter-file/dist/css/header.css ./Starter-file/dist/css/section1.css  ./Starter-file/dist/css/section2.css  ./Starter-file/dist/css/section3.css ./Starter-file/dist/section4.css ./Starter-file/dist/css/section5.css  ./Starter-file/dist/css/header.css/footer.css ",
+    "prefix": "postcss    ./Starter-file/dist/css/style.css  -d   ./Starter-file/dist/css/prefifed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saafkhallid/Projet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saafkhallid/Projet/issues"
+  },
+  "homepage": "https://github.com/saafkhallid/Projet#readme"
+}

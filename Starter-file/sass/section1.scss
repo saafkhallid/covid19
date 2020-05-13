@@ -1,0 +1,45 @@
+.section1 {
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    .container {
+        width: 50%;
+        text-align: center;
+        margin-top: 90px;
+        margin-right: 20px;
+        h2 {
+            font-size: 30px;
+            color: #1078AD;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            li {
+                font-size: 25px;
+                line-height: 40px;
+                color: #7f7f7f;
+                font-weight: bold;
+
+            }
+        }
+        button {
+            width: 80%;
+            padding: 10px 15px;
+            background-color: #1078AD;
+            border: none;
+            color: #FFFFFF;
+            border-radius: 3px;
+            font-weight: 700;
+            font-size: 30px;
+            // height: 60px;
+        }
+
+    }
+    .photo {
+        width:50% ;
+        margin-left: 20px;
+
+    }
+
+}
